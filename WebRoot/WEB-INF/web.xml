@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginControl</servlet-name>
+    <servlet-class>cn.edu.zhku.action.LoginControl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OperatorLoginCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.action.OperatorLoginCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OperatorQueryGoodsCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.action.OperatorQueryGoodsCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisteredControl</servlet-name>
+    <servlet-class>cn.edu.zhku.action.RegisteredControl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OperatorQueryShopsInfo</servlet-name>
+    <servlet-class>cn.edu.zhku.action.OperatorQueryShopsInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OperatorQueryShopsInfoDetails</servlet-name>
+    <servlet-class>cn.edu.zhku.action.OperatorQueryShopsInfoDetails</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OperatorDeleteShop</servlet-name>
+    <servlet-class>cn.edu.zhku.action.OperatorDeleteShop</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Synchronize</servlet-name>
+    <servlet-class>cn.edu.zhku.action.Synchronize</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AuthenticateShopCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.action.AuthenticateShopCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OperatorQueryCustomerInfo</servlet-name>
+    <servlet-class>cn.edu.zhku.action.OperatorQueryCustomerInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OperatorDeleteCustomer</servlet-name>
+    <servlet-class>cn.edu.zhku.action.OperatorDeleteCustomer</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OperatorManSelf</servlet-name>
+    <servlet-class>cn.edu.zhku.action.OperatorManSelf</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerDelCart</servlet-name>
+    <servlet-class>cn.edu.zhku.action.CustomerDelCart</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OperatorManOrders</servlet-name>
+    <servlet-class>cn.edu.zhku.action.OperatorManOrders</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PayCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.action.PayCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>addCustomer</servlet-name>
+    <servlet-class>cn.edu.zhku.action.addCustomer</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AlterGoodsMessage</servlet-name>
+    <servlet-class>cn.edu.zhku.action.AlterGoodsMessage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>alterServlet</servlet-name>
+    <servlet-class>cn.edu.zhku.action.alterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>deleteGoods</servlet-name>
+    <servlet-class>cn.edu.zhku.action.deleteGoods</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReadAlterCustomer</servlet-name>
+    <servlet-class>cn.edu.zhku.action.ReadAlterCustomer</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>shopServlet</servlet-name>
+    <servlet-class>cn.edu.zhku.action.shopServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChongzhiCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.action.ChongzhiCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChongzhiDaoZhanghu</servlet-name>
+    <servlet-class>cn.edu.zhku.action.ChongzhiDaoZhanghu</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HandleOrder</servlet-name>
+    <servlet-class>cn.edu.zhku.action.HandleOrder</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CustomerHandleOrderCtrl</servlet-name>
+    <servlet-class>cn.edu.zhku.action.CustomerHandleOrderCtrl</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AlterCustomerInfo</servlet-name>
+    <servlet-class>cn.edu.zhku.action.AlterCustomerInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddGoodsInfo</servlet-name>
+    <servlet-class>cn.edu.zhku.action.AddGoodsInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>EditGoodsInfo</servlet-name>
+    <servlet-class>cn.edu.zhku.action.EditGoodsInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchGoods</servlet-name>
+    <servlet-class>cn.edu.zhku.action.SearchGoods</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginControl</servlet-name>
+    <url-pattern>/servlet/LoginControl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OperatorLoginCtrl</servlet-name>
+    <url-pattern>/servlet/OperatorLoginCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OperatorQueryGoodsCtrl</servlet-name>
+    <url-pattern>/servlet/OperatorQueryGoodsCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisteredControl</servlet-name>
+    <url-pattern>/servlet/RegisteredControl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OperatorQueryShopsInfo</servlet-name>
+    <url-pattern>/servlet/OperatorQueryShopsInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OperatorQueryShopsInfoDetails</servlet-name>
+    <url-pattern>/servlet/OperatorQueryShopsInfoDetails</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OperatorDeleteShop</servlet-name>
+    <url-pattern>/servlet/OperatorDeleteShop</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Synchronize</servlet-name>
+    <url-pattern>/servlet/Synchronize</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AuthenticateShopCtrl</servlet-name>
+    <url-pattern>/servlet/AuthenticateShopCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OperatorQueryCustomerInfo</servlet-name>
+    <url-pattern>/servlet/OperatorQueryCustomerInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OperatorDeleteCustomer</servlet-name>
+    <url-pattern>/servlet/OperatorDeleteCustomer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OperatorManSelf</servlet-name>
+    <url-pattern>/servlet/OperatorManSelf</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerDelCart</servlet-name>
+    <url-pattern>/servlet/CustomerDelCart</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OperatorManOrders</servlet-name>
+    <url-pattern>/servlet/OperatorManOrders</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PayCtrl</servlet-name>
+    <url-pattern>/servlet/PayCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>addCustomer</servlet-name>
+    <url-pattern>/servlet/addCustomer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AlterGoodsMessage</servlet-name>
+    <url-pattern>/servlet/AlterGoodsMessage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>alterServlet</servlet-name>
+    <url-pattern>/servlet/alterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>deleteGoods</servlet-name>
+    <url-pattern>/servlet/deleteGoods</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReadAlterCustomer</servlet-name>
+    <url-pattern>/servlet/ReadAlterCustomer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>shopServlet</servlet-name>
+    <url-pattern>/servlet/shopServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChongzhiCtrl</servlet-name>
+    <url-pattern>/servlet/ChongzhiCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChongzhiDaoZhanghu</servlet-name>
+    <url-pattern>/servlet/ChongzhiDaoZhanghu</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HandleOrder</servlet-name>
+    <url-pattern>/servlet/HandleOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CustomerHandleOrderCtrl</servlet-name>
+    <url-pattern>/servlet/CustomerHandleOrderCtrl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AlterCustomerInfo</servlet-name>
+    <url-pattern>/servlet/AlterCustomerInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddGoodsInfo</servlet-name>
+    <url-pattern>/servlet/AddGoodsInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>EditGoodsInfo</servlet-name>
+    <url-pattern>/servlet/EditGoodsInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchGoods</servlet-name>
+    <url-pattern>/servlet/SearchGoods</url-pattern>
+  </servlet-mapping>
+</web-app>
